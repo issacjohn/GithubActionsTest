@@ -20,7 +20,7 @@ jobs:
       - name: Download the github Repostiry 
         run: git clone "https://github.com/issacjohn/GithubActionsTest.git"
       - name: Execute the Repostiry
-        run: 
+        run: |
           cd GithubActionsTest
           python3 print.py
         
